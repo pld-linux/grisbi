@@ -10,9 +10,10 @@ Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/grisbi/%{name}-%{version}.tar.bz2
 # Source0-md5:	ceccf6799317686fe53f61730241f7e1
 Patch0:		%{name}-pl.patch
-BuildRequires:	gtk+2-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	gettext-devel
+BuildRequires:	gtk+2-devel
 URL:		http://www.grisbi.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
