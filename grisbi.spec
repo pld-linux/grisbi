@@ -1,19 +1,21 @@
+# todo: update pl patch
 Summary:	Personal finances manager
 Summary(br):	Program a gonterezh an ti
 Summary(fr):	Gestionnaire de finances personnelles
 Summary(pl):	Zarz±dca finansów osobistych
 Name:		grisbi
-Version:	0.5.0
-Release:	2
+Version:	0.5.2
+Release:	0.1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/grisbi/%{name}-%{version}.tar.bz2
-# Source0-md5:	ceccf6799317686fe53f61730241f7e1
+# Source0-md5:	5d496c64973452f2cf35def2d1e57b01
 Patch0:		%{name}-pl.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+2-devel
+BuildRequires:	libofx-devel
 URL:		http://www.grisbi.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -56,7 +58,7 @@ szybki przewodnik dla pocz±tkuj±cych.
 
 %prep
 %setup -q
-%patch0 -p1
+#%patch0 -p1
 
 %build
 %{__aclocal} -I macros
