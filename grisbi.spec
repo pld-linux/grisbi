@@ -6,7 +6,7 @@ Summary(pl):	Zarz±dca finansów osobistych
 Name:		grisbi
 Version:	0.5.5
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/grisbi/%{name}-%{version}.tar.bz2
 # Source0-md5:	09b06382f9bb5a4124c40296c5eba6d5
@@ -82,6 +82,7 @@ rm -rf $RPM_BUILD_ROOT
 rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
+%doc AUTHORS ChangeLog NEWS README
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/mime-info/*
@@ -90,4 +91,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_docdir}/grisbi/help
 %{_docdir}/grisbi/help/C
 %lang(fr) %{_docdir}/grisbi/help/fr
+%lang(de) %{_docdir}/grisbi/help/de
 %{_mandir}/man1/*.1*
