@@ -4,12 +4,15 @@ Summary(fr):	Gestionnaire de finances personnelles
 Summary(pl):	Zarz±dca finansów osobistych
 Name:		grisbi
 Version:	0.5.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/grisbi/%{name}-%{version}.tar.bz2
 # Source0-md5:	ceccf6799317686fe53f61730241f7e1
+Patch0:		%{name}-pl.patch
 BuildRequires:	gtk+2-devel
+BuildRequires:	autoconf
+BuildRequires:	automake
 URL:		http://www.grisbi.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -52,9 +55,14 @@ szybki przewodnik dla pocz±tkuj±cych.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
-%configure 
+%{__aclocal} -I macros
+%{__automake}
+%{__autoconf}
+
+%configure
 %{__make}
 
 %install
