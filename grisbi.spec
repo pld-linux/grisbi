@@ -82,8 +82,8 @@ rm -rf $RPM_BUILD_ROOT
 rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
-%doc AUTHORS ChangeLog NEWS README
 %defattr(644,root,root,755)
+%doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/mime-info/*
 %{_pixmapsdir}/grisbi
