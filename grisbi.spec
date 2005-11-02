@@ -10,7 +10,6 @@ License:	GPL v2
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/grisbi/%{name}-%{version}.tar.bz2
 # Source0-md5:	571e5b08ee9477c2adec459fb4d99625
-Patch0:		%{name}-pl.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
@@ -60,7 +59,6 @@ szybki przewodnik dla pocz±tkuj±cych.
 
 %prep
 %setup -q
-#%patch0 -p1
 
 %build
 %{__aclocal} -I macros
