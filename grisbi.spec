@@ -1,4 +1,3 @@
-# todo: update pl patch
 Summary:	Personal finances manager
 Summary(br):	Program a gonterezh an ti
 Summary(fr):	Gestionnaire de finances personnelles
@@ -10,6 +9,7 @@ License:	GPL v2
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/grisbi/%{name}-%{version}.tar.bz2
 # Source0-md5:	6637c02bfad46ac061b9d0e91e404721
+URL:		http://www.grisbi.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
@@ -17,7 +17,6 @@ BuildRequires:	gtk+2-devel
 BuildRequires:	libofx-devel
 BuildRequires:	libxml2-devel
 BuildRequires:	pkgconfig
-URL:		http://www.grisbi.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -64,7 +63,6 @@ szybki przewodnik dla pocz±tkuj±cych.
 %{__aclocal} -I macros
 %{__automake}
 %{__autoconf}
-
 %configure
 %{__make}
 
