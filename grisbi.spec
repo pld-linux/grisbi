@@ -4,12 +4,12 @@ Summary(br):	Program a gonterezh an ti
 Summary(fr):	Gestionnaire de finances personnelles
 Summary(pl):	Zarz±dca finansów osobistych
 Name:		grisbi
-Version:	0.5.7
+Version:	0.5.8
 Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/grisbi/%{name}-%{version}.tar.bz2
-# Source0-md5:	571e5b08ee9477c2adec459fb4d99625
+# Source0-md5:	6637c02bfad46ac061b9d0e91e404721
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
