@@ -1,7 +1,7 @@
 Summary:	Personal finances manager
-Summary(br):	Program a gonterezh an ti
-Summary(fr):	Gestionnaire de finances personnelles
-Summary(pl):	Zarz±dca finansów osobistych
+Summary(br.UTF-8):   Program a gonterezh an ti
+Summary(fr.UTF-8):   Gestionnaire de finances personnelles
+Summary(pl.UTF-8):   ZarzÄ…dca finansÃ³w osobistych
 Name:		grisbi
 Version:	0.5.9
 Release:	1
@@ -29,32 +29,32 @@ conforms to French accounting logic. Grisbi is accompanied with an
 excellent user manual, updated in every version, as well as a quick
 start guide.
 
-%description -l br
-Program a gonterezh aes d'ober gantañ evit ezhomoù eeun, Grisbi en
-deus ivez tammoù avansetoc'h d'ober war-dro kontoù kevredigezhioù.
-Ar program-mañ 'zo bet savet gant gallaoued, neuze e vo kap da heul
-reolennoù konterezh gall.
-Grisbi 'zo gantañ ul levr mat-tre evit deskiñ ober gantañ.
+%description -l br.UTF-8
+Program a gonterezh aes d'ober gantaÃ± evit ezhomoÃ¹ eeun, Grisbi en
+deus ivez tammoÃ¹ avansetoc'h d'ober war-dro kontoÃ¹ kevredigezhioÃ¹.
+Ar program-maÃ± 'zo bet savet gant gallaoued, neuze e vo kap da heul
+reolennoÃ¹ konterezh gall.
+Grisbi 'zo gantaÃ± ul levr mat-tre evit deskiÃ± ober gantaÃ±.
 
-%description -l fr
-Programme de gestion de finances personnelles à l'interface simple et
-intuitive pour un usage de base, Grisbi possède également des
-fonctionnalités avancées permettant la gestion des comptes
-d'associations. Ce logiciel étant développé par des français, il est
-donc en totale conformité avec la logique française de la
-comptabilité. Grisbi est accompagné d'un excellent manuel de
-l'utilisateur, mis à jour à chaque version, ainsi que d'un guide de
-démarrage rapide.
+%description -l fr.UTF-8
+Programme de gestion de finances personnelles Ã  l'interface simple et
+intuitive pour un usage de base, Grisbi possÃ¨de Ã©galement des
+fonctionnalitÃ©s avancÃ©es permettant la gestion des comptes
+d'associations. Ce logiciel Ã©tant dÃ©veloppÃ© par des franÃ§ais, il est
+donc en totale conformitÃ© avec la logique franÃ§aise de la
+comptabilitÃ©. Grisbi est accompagnÃ© d'un excellent manuel de
+l'utilisateur, mis Ã  jour Ã  chaque version, ainsi que d'un guide de
+dÃ©marrage rapide.
 
-%description -l pl
-Grisbi to zarz±dca finansów osobistych z prostym i intuicyjnym
-interfejsem przy podstawowych funkcjach. Posiada tak¿e funkcje
-zaawansowane pozwalaj±ce na zarz±dzanie kontami dla stowarzyszeñ.
+%description -l pl.UTF-8
+Grisbi to zarzÄ…dca finansÃ³w osobistych z prostym i intuicyjnym
+interfejsem przy podstawowych funkcjach. Posiada takÅ¼e funkcje
+zaawansowane pozwalajÄ…ce na zarzÄ…dzanie kontami dla stowarzyszeÅ„.
 
-Aplikacja zosta³a napisana przez programistów francuskich, przez co
-zgodna jest z logik± kont francuskich. Grisbi zawiera doskona³y
-podrêcznik u¿ytkownika, uaktualniany dla ka¿dej wersji, a tak¿e
-szybki przewodnik dla pocz±tkuj±cych.
+Aplikacja zostaÅ‚a napisana przez programistÃ³w francuskich, przez co
+zgodna jest z logikÄ… kont francuskich. Grisbi zawiera doskonaÅ‚y
+podrÄ™cznik uÅ¼ytkownika, uaktualniany dla kaÅ¼dej wersji, a takÅ¼e
+szybki przewodnik dla poczÄ…tkujÄ…cych.
 
 %prep
 %setup -q
