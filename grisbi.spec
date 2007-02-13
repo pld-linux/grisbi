@@ -1,7 +1,7 @@
 Summary:	Personal finances manager
-Summary(br.UTF-8):   Program a gonterezh an ti
-Summary(fr.UTF-8):   Gestionnaire de finances personnelles
-Summary(pl.UTF-8):   Zarządca finansów osobistych
+Summary(br.UTF-8):	Program a gonterezh an ti
+Summary(fr.UTF-8):	Gestionnaire de finances personnelles
+Summary(pl.UTF-8):	Zarządca finansów osobistych
 Name:		grisbi
 Version:	0.5.9
 Release:	1
