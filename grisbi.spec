@@ -12,7 +12,7 @@ Source0:	http://dl.sourceforge.net/grisbi/%{name}-%{version}.tar.bz2
 URL:		http://www.grisbi.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gtk+2-devel
 BuildRequires:	libofx-devel
 BuildRequires:	libxml2-devel
